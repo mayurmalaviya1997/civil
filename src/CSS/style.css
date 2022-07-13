@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{  
+ 
+
+}
+
+/* COMMON CSS: START */
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style-type: none !important;
+}
+/* COMMON CSS: END */
+
+/* HEADER:START */
+/* NAVBAR:STRAT */
+.NavPosition
+{
+    position: sticky;
+    top:0;
+    z-index: 50000;
+}
+
+.NavigationBarWrp{
+/* background-image: url(../IMG/bg22.png); */
+background-color: #fefefe;
+background-position: center;
+background-size: cover;
+}
+
+.headerLogo
+{
+    /* width: 134px;
+    height: 26px; */
+    /* object-fit: contain; */
+    width: 100%;
+}
+
+.SocialLogo
+{
+    display: flex;
+    justify-content: space-evenly ;
+    
+}
+.SocialLogo > a 
+{
+    color: rgb(77, 72, 72);
+}
+.SocialLogo > a:hover
+{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    transition-timing-function: linear;
+}
+/* NAVBAR:END */
+
+/* SLIDER */
+.headerSlider{
+   
+    background-image: url(../IMG/bg22.png);
+}
+  
+
+.headerLeftContent p:first-of-type
+{
+    font-size: 46px;
+    line-height: 54px;
+    font-weight: 600;   
+}
+.headerLeftContent p:last-of-type
+{
+    font-size: 23px;
+    line-height: 34px;
+    font-weight: 500;
+    color: #747d8e;
+}
+
+.headerImageWrp
+{
+    height: 95vh;
+}
+.headerImage
+{
+    float: right;    
+}
+
+
+/* SLIDER */
+
+/* HEADER:START */
+
+
+/* FEATURES:START */
+.FeaturesContainer{
+background-color: #fefefe;
+/* margin-top: 30px; */
+}
+.Featurestext
+{ color: palevioletred;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.FeaturesIcon{
+font-size: 40px;
+color: palevioletred;
+}
+/* FEATURES:START */
+
+/* SPECIALITY :START */
+.SpecialityContainer
+{
+background-color: #fefefe;
+}
+
+.SpecialityContent p:first-of-type  {
+    color: palevioletred;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.SpecialityContent p:last-of-type  {
+    color: #60697B;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+
+
+
+/* SPECIALITY :START */
+
+
+/* SPECIALITY :START */
+
+/* WORK:STRAT */
+.topWorkContainer{
+    background-image: url(../IMG//bg22.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    
+}
+
+.WorkIcon > div > i
+{
+    font-size: 3rem;
+}
+
+/* WORK:STRAT */
+/* .PositionRelative{
+position: relative;
+}
+.WorkCard
+{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+} */
+
+/* WORK:STRAT */
+
+
+
+
+.temp
+{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
